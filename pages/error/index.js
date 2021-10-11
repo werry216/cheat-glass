@@ -3,8 +3,6 @@ import { Container, Row, Col, Button } from "reactstrap";
 import Link from 'next/link';
 import img from "public/images/e-commerce/404/404.png";
 import s from "./Error.module.scss";
-
-import InstagramWidget from 'components/e-commerce/Instagram';
 import Head from "next/head";
 
 const Index = () => {
