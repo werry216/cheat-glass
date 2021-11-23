@@ -27,6 +27,7 @@ const options = [
   { value: '3', label: 'Section 3 (Math no cale)' },
   { value: '4', label: 'Section 4 (Math with cale)' },
   { value: '5', label: 'Expiremental' },
+  { value: '6', label: 'Spammail' },
 ];
 
 const questions = [
@@ -162,7 +163,7 @@ const Index = () => {
   const checkAnswers = (sectionParam, questionParam) => {
     let filtered = answerList.filter( item => item.section == sectionParam.value && item.question.id ==  questionParam.id);
     let filteredAnswerIndex = filtered[0]['answer'];
-    console.log(filteredAnswerIndex);
+//     console.log(filteredAnswerIndex);
     setCurrentAnswer(filteredAnswerIndex);
   }
 
