@@ -23,6 +23,7 @@ export default {
       middle: "#D7DFE6",
       black: "#13191D",
       salat: "#21AE8C",
+      other: "#89BN90"
     },
   },
 };
