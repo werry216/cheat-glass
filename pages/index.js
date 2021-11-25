@@ -28,6 +28,7 @@ const options = [
   { value: '4', label: 'Section 4 (Math with cale)' },
   { value: '5', label: 'Expiremental' },
   { value: '6', label: 'Spammail' },
+  { value: '7', label: 'Semi' }
 ];
 
 const questions = [
