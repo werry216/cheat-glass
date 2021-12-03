@@ -5,6 +5,7 @@ const hostApi =
 const portApi =
   process.env.NODE_ENV === "development" ? "8080" : '';
 const baseURLApi = `${hostApi}:${portApi}/api`;
+// const mainURLApi = `${hostApi}:${portApi}/api`;
 
 export default {
   hostApi,
